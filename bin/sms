@@ -3,6 +3,9 @@
 require File.join(File.dirname(__FILE__), '..', 'lib', 'sms')
 require 'optparse'
 
+puts "BROKEN."
+exit
+
 from = to = nil
 OptionParser.new do |opts|
   opts.banner = 'Usage: sms "some message" [options]'
