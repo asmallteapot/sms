@@ -16,6 +16,7 @@ module SMS
     url = URI.parse "https://api.twilio.com/2010-04-01/Accounts/#{@sid}/SMS/Messages"
     http = Net::HTTP.new(url.host, url.port)
     http.use_ssl = true
+	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
         
     request = Net::HTTP::Post.new(url.path)
 	request.basic_auth @sid, @secret
