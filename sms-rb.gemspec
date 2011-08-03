@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{sms-rb}
-  s.version = "0.0.3"
+  s.version = '0.0.4'
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new('>= 0') if s.respond_to? :required_rubygems_version=
   s.authors = ['Bill Williams', 'Pat Nakajima']
   s.date = %q{2011-08-02}
-  s.executables = ["sms"]
+  s.executables = ['sms']
   s.email = %q{bill@flpatriot.com}
-  s.files = ["README.md", "bin/sms", "lib/sms.rb",]
-  s.require_paths = ["lib"]
+  s.files = ['README.md', 'lib/sms.rb',]
+  s.require_paths = ['lib']
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{Send text messages with Twilio.}
 

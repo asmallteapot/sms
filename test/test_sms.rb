@@ -1,5 +1,7 @@
 require 'helper'
 
 class TestSms < Test::Unit::TestCase
-  # LOL, you thought it was tested.
+  # Sorry, no tests yet.
+  # Need to rewrite the configuration stuff again first.
 end
+
