@@ -28,6 +28,7 @@ module SMS
     response = http.start do |http|
       http.request(request)
     end
+	response.code[0..0] == '2' # eg, 2xx
   end
 end
 
