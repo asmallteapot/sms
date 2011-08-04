@@ -1,6 +1,12 @@
-# sms-rb
+# sms
 
 Send text messages with [Twilio](http://www.twilio.com/). Easily.
+
+## Installation
+
+	gem install sms
+
+Or put `gem 'sms'` in your `Gemfile`.
 
 
 ## Usage
@@ -25,6 +31,13 @@ To run the test suite, put a YAML file with the following keys at `~/.twilio`:
 * `secret`: Your Twilio API secret token.
 * `from`: Twilio phone number to send test message from.
 * `to`: Phone number to send test message to.
+
+This is a bit of a hack. Unfortunately, Twilio doesn’t offer testing credentials.
+
+
+## Credits
+* This is a heavily–modified fork of [sms-rb](https://github.com/nakajima/sms-rb).
+
 
 ## TODO
 * Consolidate YAML/ENV/options – should be able to set all from any method.
